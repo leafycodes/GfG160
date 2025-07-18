@@ -23,6 +23,7 @@ class Solution {
 
             // can use nested max for simplicity
             max_prod = max({max_prod, ltr, rtl});
+            // std::initializer_list -> {} to pass multiple values
         }
 
         return max_prod;
